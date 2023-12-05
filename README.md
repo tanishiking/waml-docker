@@ -4,7 +4,7 @@ See: https://github.com/WebAssembly/gc/tree/waml/proposals/gc/waml#usage
 
 ```sh
 $ docker build . -t waml
-$ docker run -it waml -x -c
+$ ./waml -x -c
 waml 0.2 interpreter
 > val f x = x + 7;  f 5;
 (module
